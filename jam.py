@@ -47,18 +47,16 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-_________  _______   _______ 
-\__    _/ (  ___  ) (       )
-   )  (   | (   ) | | () () |
-   |  |   | (___) | | || || |
-   |  |   |  ___  | | |(_)| |
-   |  |   | (   ) | | |   | |
-|\_)  )   | )   ( | | )   ( |
-(____/    |/     \| |/     \|
-♨️°───────(SHAHRUKH)───────°♨️
+  ____    _       _                 
+ / ___|  (_)   __| |   ___     ___  
+ \___ \  | |  / _` |  / _ \   / _ \ 
+  ___) | | | | (_| | | (_) | | (_) |
+ |____/  |_|  \__,_|  \___/   \___/ 
+                                    
+♨️°───────(Aadi X Sidoo)───────°♨️
 \033[1;92m║══▒═✺═▒═✺═▒═══¤═¤═¤════════════¤═══║
-\033[1;96m║✯ Creator ✯ JAM SHAHRUKH       ║    
-\033[1;98m║✯ JAM SHAHRUKH           ║  
+\033[1;96m║✯ Creator ✯ SIDOO TECH       ║    
+\033[1;98m║✯ AADI LOVES SIDOO           ║  
 \033[1;96m║✯ I'm Not Responsible For Any Miss Use║
 \033[1;92m║══▒═✺═▒═✺═▒═══¤═¤═¤════════════¤═══║"""
 def tik():
@@ -79,36 +77,39 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 \033[1;97m************************************************
-\033[1;96m~ IM NOT RESPONSIBLE FOR ANY MISS USE MR JAM ~
+\033[1;96m~ IM NOT RESPONSIBLE FOR ANY MISS USE MR AADI ~
 \033[1;97m************************************************
 
-\033[1;92m░░░░░██╗░█████╗░███╗░░░███╗
-\033[1;92m░░░░░██║██╔══██╗████╗░████║
-\033[1;92m░░░░░██║███████║██╔████╔██║
-\033[1;92m██╗░░██║██╔══██║██║╚██╔╝██║
-\033[1;92m╚█████╔╝██║░░██║██║░╚═╝░██║
-\033[1;92m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
-USER NAME: jam
-PASSWORD: jam
+\033[1;92m                SSS  III DDD   OOO   OOO  
+\033[1;92m               S      I  D  D O   O O   O 
+\033[1;92m                 SSS   I  D  D O   O O   O 
+\033[1;92m                    S  I  D  D O   O O   O
+\033[1;92m                SSSS  III DDD   OOO   OOO  
+                           
+                           
+
+
+USER NAME: sidoo
+PASSWORD: tech
 """
 
-CorrectUsername = "jam"
-CorrectPassword = "jam"
+CorrectUsername = "sidoo"
+CorrectPassword = "tech"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:AADI-TECH
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+            os.system('xdg-open https://youtu.be/E_QWL6uTmvo')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+        os.system('xdg-open https://youtu.be/E_QWL6uTmvo')
 
 def login():
 	os.system('clear')
@@ -216,7 +217,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print " \033[1;36;40m◄══════════════════JAM══════════════════►\n"
+		print " \033[1;36;40m◄══════════════════SIDOO AADI══════════════════►\n"
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
@@ -263,7 +264,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
-		print "\033[1;95m•◈•══════•◈\033[1;91mJAM SHAHRUKH\033[1;95m◈•══════•◈•"
+		print "\033[1;95m•◈•══════•◈\033[1;91mSIDOO TECH\033[1;95m◈•══════•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -289,10 +290,10 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;92m◄══════════════════JAM══════════════════►"
+	print "   \033[1;92m◄══════════════════HATERS FEEL ON RAKHO ══════════════════►"
 
-	jalan('          \033[1;91mJAM start cloning Wait...')
-	print  "  \033[1;92m ◄══════════════════JAM══════════════════►" 
+	jalan('          \033[1;91mSIDOO start cloning Wait...')
+	print  "  \033[1;92m ◄══════════════════SIDOO LOVES AADI══════════════════►" 
 
 	def main(arg):
 		global cekpoint,oks
@@ -509,25 +510,25 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mJAM-SHAHRUKH\033[1;95m◈•▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By JAM-SHAHRUKH--•◈•---»" #Dev:Jam
+	print "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mSIDOO TECH\033[1;95m◈•▬ ▬ ▬•◈•"
+	print "  \033[1;91m«---•◈•---Developed By SIDOO-TECH--•◈•---»" #Dev:Jam
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Mishal.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
 
-░░░░░██╗░█████╗░███╗░░░███╗
-░░░░░██║██╔══██╗████╗░████║
-░░░░░██║███████║██╔████╔██║
-██╗░░██║██╔══██║██║╚██╔╝██║
-╚█████╔╝██║░░██║██║░╚═╝░██║
-░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
+..%%%%...%%%%%%..%%%%%....%%%%....%%%%..
+.%%........%%....%%..%%..%%..%%..%%..%%.
+..%%%%.....%%....%%..%%..%%..%%..%%..%%.
+.....%%....%%....%%..%%..%%..%%..%%..%%.
+..%%%%...%%%%%%..%%%%%....%%%%....%%%%..
+........................................
  
          Checkpoint ID Open After 7 Days
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ..Jam Creations.. \033[1;95m :
+: \033[1;91m ..SIDOO Creations.. \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;91mShahrukh22"""
+              \033[1;91mAKYOUTUBER06"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
